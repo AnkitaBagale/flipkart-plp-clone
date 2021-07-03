@@ -24,7 +24,7 @@ export const ProductCard = ({ product }) => {
 						<span key={size}>{size} </span>
 					))}
 				</p>
-				<p>{product.ideal_for}</p>
+				<p>Ideal for: {product.ideal_for}</p>
 			</div>
 		</div>
 	);
