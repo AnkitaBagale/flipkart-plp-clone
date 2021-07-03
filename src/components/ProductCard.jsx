@@ -3,7 +3,7 @@ import { getDisountedPrice } from './utils';
 export const ProductCard = ({ product }) => {
 	return (
 		<div>
-			<img className='card-img' src={product?.image} />
+			<img alt='product' className='card-img' src={product?.image} />
 			<div className='text-container'>
 				<p className='product-brand'>{product?.brand}</p>
 				<h6 className='product-name'>{product?.name}</h6>

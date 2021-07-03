@@ -19,7 +19,7 @@ export const useGetProductsFromServer = () => {
 				setError(true);
 			}
 		})();
-	}, []);
+	}, [dispatch]);
 
 	return { loading, error };
 };
