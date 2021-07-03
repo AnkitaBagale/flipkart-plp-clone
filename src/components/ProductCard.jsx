@@ -9,6 +9,7 @@ export const ProductCard = ({ product }) => {
 				<h6 className='product-name'>{product?.name}</h6>
 				{product.flipkart_assured && <p>fassured</p>}
 				<p className='product-name'>
+					Rs.
 					{getDisountedPrice(product?.price, product?.discount)}{' '}
 					{product?.discount > 0 && (
 						<>
@@ -16,6 +17,12 @@ export const ProductCard = ({ product }) => {
 							<span>{product?.discount}% off</span>
 						</>
 					)}
+				</p>
+				<p>
+					Sizes:{' '}
+					{product.sizes.map((size) => (
+						<span key={size}>{size} </span>
+					))}
 				</p>
 			</div>
 		</div>
