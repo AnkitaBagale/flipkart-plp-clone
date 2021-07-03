@@ -1,7 +1,16 @@
 import './App.css';
-
+import { ProductListing } from './components/ProductListing';
+import { useGetProductsFromServer } from './server-requests';
 function App() {
-	return <div className='App'></div>;
+	const { loading, error } = useGetProductsFromServer();
+
+	return (
+		<div className='App'>
+			{loading && <p>loading....</p>}
+			{error && <p>Something went wrong. Please refresh the page....</p>}
+			<ProductListing />
+		</div>
+	);
 }
 
 export default App;

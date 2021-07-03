@@ -1,0 +1,70 @@
+{
+    "products": [
+        {
+            "id":"1",
+            "image":"https://i.postimg.cc/g0CzBrxf/xs-t322-blwh-seven-rocks-original-imafxhagtyj2xvpn.jpg",
+            "name":"Color Block Men Round Neck Black T-Shirt",
+            "brand":"Seven Rocks",
+            "sizes":["S","M","L","XL"],
+            "ideal_for":"Men",
+            "flipkart_assured":true,
+            "price":1299,
+            "discount": 69
+        },
+        {
+            "id":"2",
+            "image":"https://i.postimg.cc/g0CzBrxf/xs-t322-blwh-seven-rocks-original-imafxhagtyj2xvpn.jpg",
+            "name":"Men Round Neck Black T-Shirt",
+            "brand":"People",
+            "sizes":["S","M"],
+            "ideal_for":"Men",
+            "flipkart_assured":true,
+            "price":1500,
+            "discount": 20
+        },
+        {
+            "id":"3",
+            "image":"https://i.postimg.cc/g0CzBrxf/xs-t322-blwh-seven-rocks-original-imafxhagtyj2xvpn.jpg",
+            "name":"Color Block Round Neck T-Shirt",
+            "brand":"Jack & Jones",
+            "sizes":["S","XL"],
+            "ideal_for":"Women",
+            "flipkart_assured":false,
+            "price":800,
+            "discount": 50
+        },
+        {
+            "id":"4",
+            "image":"https://i.postimg.cc/g0CzBrxf/xs-t322-blwh-seven-rocks-original-imafxhagtyj2xvpn.jpg",
+            "name":"Color Block Girls T-Shirt",
+            "brand":"Max",
+            "sizes":["S","M","L"],
+            "ideal_for":"Girls",
+            "flipkart_assured":true,
+            "price":699,
+            "discount": 0
+        },
+        {
+            "id":"5",
+            "image":"https://i.postimg.cc/g0CzBrxf/xs-t322-blwh-seven-rocks-original-imafxhagtyj2xvpn.jpg",
+            "name":"Color Blue Round Neck T-Shirt",
+            "brand":"W",
+            "sizes":["S","M","L","XL"],
+            "ideal_for":"Men",
+            "flipkart_assured":false,
+            "price":1299,
+            "discount": 50
+        },
+        {
+            "id":"6",
+            "image":"https://i.postimg.cc/g0CzBrxf/xs-t322-blwh-seven-rocks-original-imafxhagtyj2xvpn.jpg",
+            "name":"Color Black T-Shirt",
+            "brand":"W",
+            "sizes":["S","M","L","XL"],
+            "ideal_for":"Women",
+            "flipkart_assured":false,
+            "price":799,
+            "discount": 0
+        }
+    ] 
+}
