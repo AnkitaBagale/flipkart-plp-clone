@@ -1,15 +1,18 @@
 import './App.css';
-import { ProductListing } from './components/ProductListing';
+import { ProductListing, Nav } from './components';
 import { useGetProductsFromServer } from './server-requests';
 function App() {
 	const { loading, error } = useGetProductsFromServer();
 
 	return (
-		<div className='App'>
-			{loading && <p>loading....</p>}
-			{error && <p>Something went wrong. Please refresh the page....</p>}
-			<ProductListing />
-		</div>
+		<>
+			<Nav />
+			<div className='App'>
+				{loading && <p>loading....</p>}
+				{error && <p>Something went wrong. Please refresh the page....</p>}
+				<ProductListing />
+			</div>
+		</>
 	);
 }
 
